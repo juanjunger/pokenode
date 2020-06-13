@@ -8,13 +8,13 @@ Clique **[AQUI](https://pokenode.vercel.app/)** para **visualizar** o projeto.
 
 
 
-## :fire: Projeto
+## Projeto
 
 O **PokéNode** é um projeto que tem como *finalidade* listar todos os pokémons da primeira geração (kanto).
 
 
 
-## :rocket: Tecnologias
+## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 
-## :computer: Desenvolvimento
+## Desenvolvimento
 
 Foi utilizada a **[PokeApi](https://pokeapi.co/)** para a manipulação de dados do projeto.
 
@@ -54,7 +54,7 @@ Foi utilizada a **[PokeApi](https://pokeapi.co/)** para a manipulação de dados
 
 
 
-## :keyboard: Layout
+## Layout
 
 Você pode **baixar** o layout do projeto no formato `.fig` clicando **[AQUI](./assets/pokenode.fig)**.
 
@@ -62,7 +62,7 @@ Para abrir o arquivo no formato `.fig` em qualquer sistema operacional utilize a
 
 
 
-## :pencil: ​Licença
+## Licença
 
 Esse projeto está sob a licença MIT. 
 
@@ -70,5 +70,5 @@ Esse projeto está sob a licença MIT.
 
 
 
-Feito com :heart: by **[Juan Junger](https://www.linkedin.com/in/juan-junger/)** :happy:
+Feito por **[Juan Junger](https://www.linkedin.com/in/juan-junger/)**.​
 
