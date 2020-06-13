@@ -1,0 +1,23 @@
+@media screen and (max-width: 992px) {
+    section.pokedex #list .card {
+        flex: 1 0 25%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    section.pokedex #list .card {
+        flex: 1 0 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    section.pokedex #list .card {
+        flex: 0 0 75%;
+    }
+
+    section.pokedex #pokebola img {
+        width: 15%;
+        right: 2%;
+        bottom: 2%;
+    }
+}

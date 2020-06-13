@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f4f4f4;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%;
+}
+
+main.app {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+section.header {
+    padding: 2rem 0;
+}
+
+section.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.header .logo img {
+    width: 50%;
+}
+
+section.pokedex {
+    padding: 0 0 2rem;
+}
+
+section.pokedex #list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section.pokedex #list .card {
+    flex: 1 0 20%;
+    position: relative;
+    border: 1px solid #E5E5E5;
+    text-align: center;
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #ffffff;
+}
+
+section.pokedex #list .card.active {
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(196,196,196,1);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(196,196,196,1);
+    box-shadow: 0px 0px 30px 0px rgba(196,196,196,1);
+}
+
+section.pokedex #list .card span.id {
+    font-size: 14px;
+    color: #A3A3A3;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+}
+
+section.pokedex #list .card h2 {
+    margin: 15px 0;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+section.pokedex #list .card .types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.pokedex #list .card .types p {
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 0.25rem;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 40%;
+    margin: 0 auto;
+}
+
+section.pokedex #list .card img {
+    width: 100%;
+}
+
+section.pokedex #list .card p#normal {
+    background-color: #A8A878;
+}
+
+section.pokedex #list .card p#fire {
+    background-color: #F08030;
+}
+
+section.pokedex #list .card p#water {
+    background-color: #6890F0;
+}
+
+section.pokedex #list .card p#grass {
+    background-color: #78C850;
+}
+
+section.pokedex #list .card p#electric {
+    background-color: #F8D030;
+}
+
+section.pokedex #list .card p#ice {
+    background-color: #98D8D8;
+}
+
+section.pokedex #list .card p#ground {
+    background-color: #E0C068;
+}
+
+section.pokedex #list .card p#flying {
+    background-color: #A890F0;
+}
+
+section.pokedex #list .card p#poison {
+    background-color: #A040A0;
+}
+
+section.pokedex #list .card p#fighting {
+    background-color: #C03028;
+}
+
+section.pokedex #list .card p#psychic {
+    background-color: #F85888;
+}
+
+section.pokedex #list .card p#dark {
+    background-color: #705848;
+}
+
+section.pokedex #list .card p#rock {
+    background-color: #B8A038;
+}
+
+section.pokedex #list .card p#bug {
+    background-color: #A8B820;
+}
+
+section.pokedex #list .card p#ghost {
+    background-color: #705898;
+}
+
+section.pokedex #list .card p#steel {
+    background-color: #B8B8D0;
+}
+
+section.pokedex #list .card p#dragon {
+    background-color: #7038F8;
+}
+
+section.pokedex #list .card p#fairy {
+    background-color: #FFAEC9;
+}
+
+section.pokedex #pokebola {
+    position: relative;
+    display: none;
+}
+
+section.pokedex #pokebola img {
+    position: fixed;
+    right: 4%;
+    bottom: 4%;
+    width: 4%;
+    cursor: pointer;
+}
